@@ -1,0 +1,9 @@
+function noOfGames(P,C) {
+    // var PL;
+	// var P = PL / 2;
+	if(P/2 >= C) {
+	return parseInt(C);
+    } else {
+	return parseInt(P/2);
+   }
+}
